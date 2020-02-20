@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that takes a positive floating point number
+from user & display the following in your browser.
+a. number
+b. round off value of the number
+c. floor value of the number
+d. ceil value of the number -->
+    <script>
+     var input = prompt("Please enter a floating point value: ");
+     var input2 = parseFloat(input);
+     document.write("Your entered number: "+input2);
+     var input1 = Math.round(input2);
+     document.write("<br>");
+     document.write("Round off value of the number: "+input1);
+     document.write("<br>");
+     document.write("Floor value of the number: "+input1);
+     document.write("<br>");
+     var input3 = Math.ceil(input2);
+     document.write("Ceil value of the number: "+input3);
+    </script>
+</body>
+</html>

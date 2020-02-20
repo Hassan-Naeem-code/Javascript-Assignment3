@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that displays a message “It’s Fun day” if its
+Saturday or Sunday today. -->
+    <script>
+      var day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+     var today = new Date();
+     alert("Today Is:  "+day[today.getDay()]);
+     if(day[today.getDay()]==="Sun" || day[today.getDay()]==="Sat")
+     {
+         alert("It's A Fun Day..");
+     }
+     else
+     {
+         alert("It's Religous Day For ALl Muslims....");
+     }
+    </script>
+</body>
+</html>

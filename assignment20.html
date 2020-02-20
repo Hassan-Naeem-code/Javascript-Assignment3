@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that displays in your browser the seconds that
+elapsed between the reference date and the beginning of 2015. -->
+    <script>
+    var rightnow = new Date();
+    var today = new Date(2020,00,01).getTime();
+    document.write(today);
+    document.write("<br>");
+    console.log(rightnow);
+    var difference = today-rightnow;
+    var sedifference = Math.floor(Math.abs((today-rightnow)/1000));
+    document.write("<br>");
+    document.write(sedifference);
+    </script>
+</body>
+</html>

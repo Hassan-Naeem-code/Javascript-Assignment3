@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to generate your K-Electric bill in your
+browser. All the amounts should be rounded off to 2 decimal
+places. Display the following fields:
+a. Customer Name
+b. Current Month
+c. Number of units
+d. Charges per unit
+e. Net Amount Payable (within Due Date)
+f. Late Payment Surcharge
+g. Gross Amount Payable (after Due Date) -->
+    <script>
+     document.write("<h1>K-ELECTRIC BILL</h1>");
+     document.write("<br>");
+     document.write("Customer Name: " +"<b>Wahaj Khan</b>");
+     document.write("<br>");
+     document.write("Curren Month:  "+"<b>Feburary</b>");
+     document.write("<br>");
+     var numberofunits = 215;
+     var chargerperunit = 14;
+     var netamount;
+     var lateamount = 500;
+     var grossamount;
+     document.write("Number of Units: "+numberofunits);
+     document.write("<br>");
+     document.write("Charges per Units: "+chargerperunit);
+     document.write("<br>");
+     document.write("Net Amount Payable (Within Due Date): "+numberofunits*chargerperunit);
+     document.write("<br>");
+     document.write("Late Payment Surcharges: "+lateamount);
+     document.write("<br>");
+     document.write("Gross Amount Payable (After Due Date): "+(numberofunits*chargerperunit+lateamount));
+    </script>
+</body>
+</html>

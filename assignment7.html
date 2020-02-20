@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that simulates a coin toss using random()
+method of JS Math class. Display the value of coin in your
+browser. -->
+    <script>
+     var x = Math.floor((Math.random() * 2) + 1);
+    if(x===2)
+    {
+        document.write(x);
+        document.write("<br>");
+        document.write("random coin value: Head");
+    }
+    else
+    {
+        document.write(x);
+        document.write("<br>");
+        document.write("random coin value: Tail");
+    }
+    </script>
+</body>
+</html>

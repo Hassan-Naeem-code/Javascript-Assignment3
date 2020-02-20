@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a date object of the starting date of this Ramadan and alert
+the number of days past since 1st Ramadan?
+Note: 1st Ramadan was on June 18, 2015 -->
+    <script>
+     var past = new Date('2015-05-18');
+     var present = new Date('2020-01-21');
+     var difference = present.getTime() - past.getTime();
+     var differenceday = difference / (1000 * 3600 * 24);
+     alert("No Of days Passed since 1st Ramadan 2015 : "+differenceday);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to ask the user about his age. Calculate and
+show his birth year in your browser -->
+    <script>
+   var input = prompt("Enter your age here: ");
+   var rightnow = new Date();
+   rightnow.toDateString();
+   var differnce = rightnow.getFullYear() - input;
+   alert("Your birthday year is:  "+differnce);
+    </script>
+</body>
+</html>
